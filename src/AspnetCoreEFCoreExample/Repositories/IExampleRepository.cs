@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using AspnetCoreEF7Example.Models;
+using AspnetCoreEFCoreExample.Models;
 
-namespace AspnetCoreEF7Example.Repositories
+namespace AspnetCoreEFCoreExample.Repositories
 {
     public interface IExampleRepository
     {

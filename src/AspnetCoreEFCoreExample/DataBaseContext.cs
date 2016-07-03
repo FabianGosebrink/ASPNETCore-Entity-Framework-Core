@@ -1,7 +1,7 @@
-﻿using AspnetCoreEF7Example.Models;
+﻿using AspnetCoreEFCoreExample.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AspnetCoreEF7Example
+namespace AspnetCoreEFCoreExample
 {
     public class DataBaseContext : DbContext
     {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using AspnetCoreEF7Example.Models;
+using AspnetCoreEFCoreExample.Models;
 
-namespace AspnetCoreEF7Example.Repositories
+namespace AspnetCoreEFCoreExample.Repositories
 {
     public class ExampleRepository : IExampleRepository
     {

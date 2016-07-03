@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace AspnetCoreEF7Example.Migrations
+namespace AspnetCoreEFCoreExample.Migrations
 {
     public partial class Initial : Migration
     {

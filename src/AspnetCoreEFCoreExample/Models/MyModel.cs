@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AspnetCoreEF7Example.Models
+namespace AspnetCoreEFCoreExample.Models
 {
     public class MyModel
     {

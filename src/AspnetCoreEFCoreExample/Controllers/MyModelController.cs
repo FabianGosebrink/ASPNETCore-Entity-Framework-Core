@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Net;
-using AspnetCoreEF7Example.Models;
-using AspnetCoreEF7Example.Repositories;
+using AspnetCoreEFCoreExample.Models;
+using AspnetCoreEFCoreExample.Repositories;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AspnetCoreEF7Example.Controllers
+namespace AspnetCoreEFCoreExample.Controllers
 {
     [Route("api/[controller]")]
     public class MyModelController : Controller

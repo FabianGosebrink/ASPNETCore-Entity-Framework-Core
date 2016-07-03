@@ -1,5 +1,5 @@
-﻿using AspnetCoreEF7Example.Models;
-using AspnetCoreEF7Example.Repositories;
+﻿using AspnetCoreEFCoreExample.Models;
+using AspnetCoreEFCoreExample.Repositories;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace AspnetCoreEF7Example
+namespace AspnetCoreEFCoreExample
 {
     public class Startup
     {

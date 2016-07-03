@@ -1,11 +1,9 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using AspnetCoreEF7Example;
 
-namespace AspnetCoreEF7Example.Migrations
+namespace AspnetCoreEFCoreExample.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
     [Migration("20160703184938_Initial")]

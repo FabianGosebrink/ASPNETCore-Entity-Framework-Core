@@ -1,20 +1,18 @@
 ﻿using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace AspnetCoreEF7Example
+namespace AspnetCoreEFCoreExample
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-                .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
+            var host = HostingAbstractionsWebHostBuilderExtensions.UseContentRoot(WebHostBuilderKestrelExtensions.UseKestrel(new WebHostBuilder()), Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
 
-            host.Run();
+            WebHostExtensions.Run(host);
         }
     }
 }
