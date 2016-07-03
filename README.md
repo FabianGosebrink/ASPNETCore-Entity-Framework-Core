@@ -1,4 +1,4 @@
-# ASP.NET CORE 1.0 with Entity Framework Core
+# ASP.NET Core 1.0 with Entity Framework Core
 
 In this repository I want to show the first steps with Entity Framework Core and ASP.NET Core 1.0.
 
