@@ -12,7 +12,7 @@ The database should now be visible inside your SQL Server Management Studio.
 
 ![database](_gitAssets/database.jpg "database")
 
-![folderstructure](_gitAssets/folderstructure.jpg "folderstructure")postmandatabase
+![folderstructure](_gitAssets/folderstructure.jpg "folderstructure")
 
 ## Project.json
 
