@@ -7,12 +7,14 @@ namespace AspnetCoreEFCoreExample
     {
         public static void Main(string[] args)
         {
-            var host = HostingAbstractionsWebHostBuilderExtensions.UseContentRoot(WebHostBuilderKestrelExtensions.UseKestrel(new WebHostBuilder()), Directory.GetCurrentDirectory())
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
 
-            WebHostExtensions.Run(host);
+            host.Run();
         }
     }
 }
