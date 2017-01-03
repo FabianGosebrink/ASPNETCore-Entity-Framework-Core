@@ -1,6 +1,6 @@
-# ASP.NET Core 1.0 with Entity Framework Core
+# ASP.NET Core with Entity Framework Core
 
-In this repository I want to show the first steps with Entity Framework Core and ASP.NET Core 1.0.
+In this repository I want to show the first steps with Entity Framework Core and ASP.NET Core.
 
 The Repository contains a sample WebAPI with CRUD-Operations that you can Get/Read/Update and Delete "MyModel" objects through HTTP-calls.
 
