@@ -10,14 +10,14 @@ Please read this readme and think of executing ``` Add-Migration [MyMigrationNam
 
 The database should now be visible inside your SQL Server Management Studio.
 
-![database](_gitAssets/database.jpg "database")
+![database](.github/database.jpg "database")
 
-![folderstructure](_gitAssets/folderstructure.jpg "folderstructure")
+![folderstructure](.github/folderstructure.jpg "folderstructure")
 
 ## Run it...
 
 If you now run the solution you can perform CRUD operations for example via postman, angular etc...
 
-![postmandatabase](_gitAssets/postmandatabase.jpg "postmandatabase")
+![postmandatabase](.github/postmandatabase.jpg "postmandatabase")
 
 [ASP.NET Core Application to New Database](https://ef.readthedocs.io/en/latest/platforms/aspnetcore/new-db.html)
